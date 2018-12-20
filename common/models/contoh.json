@@ -1,0 +1,28 @@
+{
+  "name": "contoh",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "number"
+    },
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+
+    }
+
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
